@@ -1,0 +1,21 @@
+.offers {
+    margin-bottom: 100px;
+}
+
+.offers__title {
+    margin-bottom: 50px;
+}
+
+.offers__title::after {
+    content: url('../../img/flame.png');
+    margin-left: 12px;
+}
+
+.offers-list__item {
+    display: inline-block;
+    margin-right: 22px;
+}
+
+.offers-list__item:last-child {
+    margin-right: 0;
+}
